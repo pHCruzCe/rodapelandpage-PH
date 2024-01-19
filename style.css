@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap');
 
 *{
     margin:0;
@@ -10,7 +10,7 @@
 
 .bg-footer {
     background-color: #1f1f1f;
-    height: 300px;
+    height: 360px;
     display:flex;
     color:white;
     justify-content: center;    
@@ -27,31 +27,87 @@
 }
 
 .socials {
-    width: 280px;
-    padding: 50px 100px 0 0;
+    width: 400px;
+    padding: 50px 100px 0 20px;
+    
 }
 
+.txt p {
+    line-height: 26px;
+}
+
+.sobre {
+    display:flex;
+    width: 350px;
+    height: 50px;
+    align-items:start;
+}
+
+.sobre h1 {
+    gap: 10px;
+}
+
+/* media sociais */
+
+.media a {
+      padding: 0 20px 0 0; 
+    
+}
+
+/* media sociais */
+
 .socials p {
-    font-size: 12px;
+    margin-top: 30px;
+    font-size: 13px;
+    margin-bottom: 65px;
+    
 }
 
 .ft-card {
+    margin-top: 61px;
+    margin-left: 80px;
     justify-content: center;
-    margin-top: 40px;
-    display: flex
-       
+    display: flex;
+    gap: 10px;
+    
 }
 
 .card {
-    width: 250px;
+    /* background-color: red; */
+    width: 200px;
     font-size:13px;
     font-weight: lighter;
-    color: var(--white, #FFF);
-    font-family: Inter;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 38px; /* 237.5% */
-        
+    
+    
+}
+
+.card ul li {
+    padding: 10px 0;
+}
+
+.card a:hover {
+    color:#777;
+}
+
+.direitos {
+    text-align: center;
+    padding: 30px;
+    background-color: #1f1f1f;
+    color: white;
+    font-size: 13px;
+}
+
+.direitos p {
+    margin-top: auto;
+    padding-top:30px;  
+}
+
+hr {
+    margin:auto;
+    border:none;
+    height: 1px;
+    width: 1060px;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.3)
     
 }
